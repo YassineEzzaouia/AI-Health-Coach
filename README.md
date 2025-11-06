@@ -29,15 +29,15 @@ Développer un AI Health Coach, un système d’IA préventive capable de géné
 
 ### Objectifs spécifiques :
 1.	Collecte et préparation des données :
--Utiliser des données publiques (Fitbit, Nutrition5k, Synthea).
--Nettoyer et fusionner les sources pour créer un jeu de données cohérent (activité, sommeil, nutrition).
+- Utiliser des données publiques (Fitbit, Nutrition5k, Synthea).
+- Nettoyer et fusionner les sources pour créer un jeu de données cohérent (activité, sommeil, nutrition).
 2.	Conception du modèle d’apprentissage par renforcement :
 - Définir les états (activité, sommeil, calories).
--Déterminer les actions (augmenter les pas, modifier le régime, ajuster le sommeil).
--Appliquer un algorithme RL (DQN, PPO, ou contextual bandit).
+- Déterminer les actions (augmenter les pas, modifier le régime, ajuster le sommeil).
+- Appliquer un algorithme RL (DQN, PPO, ou contextual bandit).
 3.	Intégration d’un modèle génératif :
--Générer des recommandations compréhensible en langage naturel via un LLM.
--Exemple : “Excellent travail cette semaine ! Essayez 15 minutes de marche supplémentaire pour atteindre votre objectif.”
+- Générer des recommandations compréhensible en langage naturel via un LLM.
+- Exemple : “Excellent travail cette semaine ! Essayez 15 minutes de marche supplémentaire pour atteindre votre objectif.”
 4.	Mise en place du pipeline MLOps :
 Collecte → Prétraitement → Entraînement → Évaluation → Déploiement → Amélioration continue.
 5.	Développement d’une interface utilisateur :
