@@ -1,10 +1,13 @@
-File,Description,Rows,Key_Columns
-daily_health_data_complete.csv,"Daily activity with all health scores, transformations (Box-Cox, Sqrt)",940,"TotalSteps_BoxCox, Activity_Score, Sleep_Score, Overall_Health_Score"
-minute_data_with_preprocessing.csv,"All 33 users, minute-level data with HR flags (-1 = no monitor)",1325580,"Has_HR_Monitor, HeartRate_Avg_Flagged, Steps, Calories, Intensity"
-minute_data_with_hr_only.csv,14 users WITH HR monitors only (0% missing HR data),333146,"HeartRate_Avg, HeartRate_Min, HeartRate_Max (no NaN)"
-heartrate_by_minute.csv,"Heart rate aggregated from seconds to minutes (avg, min, max, std)",333420,"HeartRate_Avg, HeartRate_Count (aggregated from seconds)"
-hourly_data_merged.csv,"Hourly steps, calories, intensity merged",22099,"StepTotal, Calories, AverageIntensity"
-user_summary_with_segments.csv,User profiles with K-means segmentation (3 clusters),33,"Segment_ID, Segment_Name, Avg_Steps, Avg_Activity_Score"
-sleep_data_with_scores.csv,Sleep data with efficiency and scores,410,"Sleep_Efficiency, Sleep_Score"
-weight_data_clean.csv,Weight log (cleaned),67,"WeightKg, BMI, IsManualReport"
-rl_training_data_normalized.csv,Normalized features for RL/ML training,940,Normalized features (0-1 scale) for ML
+Column,Description,Type,Source
+Id,Unique user identifier,Integer,FitBit
+ActivityDate,Date of activity,Date,FitBit
+TotalSteps,Total steps taken,Integer,FitBit
+Calories,Total calories burned,Integer,FitBit
+TotalActiveMinutes,Total minutes of active time,Integer,FitBit
+SedentaryMinutes,Total minutes of sedentary time,Integer,FitBit
+Activity_Score,Activity health score (0-100),Float,Calculated
+Sleep_Score,Sleep quality score (0-100),Float,Calculated
+Nutrition_Score,Nutrition balance score (0-100),Float,Calculated
+Overall_Health_Score,Weighted overall health score (0-100),Float,Calculated
+HeartRate_Avg,Average heart rate (bpm),Float,FitBit
+Sleep_Efficiency,Sleep efficiency percentage,Float,Calculated
