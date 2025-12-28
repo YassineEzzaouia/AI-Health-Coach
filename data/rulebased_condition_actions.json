@@ -1,0 +1,142 @@
+{
+  "17": {
+    "condition_index": 17,
+    "condition": "your overall health score is high (>68) AND your overall health score is high (>76) AND your calorie burn is low (<=0) AND your nutrition score is high (>96) AND your active minutes is high (>0)",
+    "action": "Add 30 minutes cardio (jogging, cycling, swimming) 4x weekly",
+    "state": "Calorie burn increases by 250-300 per session, metabolism boosts",
+    "raw_response": "rule-based generation"
+  },
+  "30": {
+    "condition_index": 30,
+    "condition": "your calorie burn is low (<=0) AND your activity score is high (>66) AND your overall health score is high (>79) AND your nutrition score is high (>92)",
+    "action": "Incorporate HIIT workouts 3x weekly for efficient calorie expenditure",
+    "state": "Daily calorie burn increases by 300-400, fat loss accelerates",
+    "raw_response": "rule-based generation"
+  },
+  "49": {
+    "condition_index": 49,
+    "condition": "your sleep quality is high (>88) AND your active minutes is high (>0) AND your calorie burn is low (<=0) AND your sedentary time is low (<=1) AND your activity score is high (>76)",
+    "action": "Focus on consistency: schedule workouts, meal prep, sleep routine for 4 weeks",
+    "state": "Habits solidify, results compound, lifestyle transformation begins",
+    "raw_response": "rule-based generation"
+  },
+  "74": {
+    "condition_index": 74,
+    "condition": "your daily steps is high (>0) AND your sleep quality is high (>91) AND your sedentary time is high (>0) AND your calorie burn is low (<=1) AND your overall health score is high (>86)",
+    "action": "Increase daily movement: bike commuting, active errands, recreational sports",
+    "state": "Calorie expenditure climbs 280-320, lifestyle activity integrates",
+    "raw_response": "rule-based generation"
+  },
+  "93": {
+    "condition_index": 93,
+    "condition": "your overall health score is high (>75) AND your sleep quality is low (<=99) AND your daily steps is high (>0) AND your daily steps is high (>0) AND your overall health score is low (<=92)",
+    "action": "Establish consistent 10:30 PM bedtime, reduce screen time 1 hour before sleep",
+    "state": "Sleep quality improves by 18-22%, recovery optimizes",
+    "raw_response": "rule-based generation"
+  },
+  "105": {
+    "condition_index": 105,
+    "condition": "your sleep quality is high (>90) AND your calorie burn is low (<=0) AND your overall health score is high (>79) AND your calorie burn is high (>0) AND the day of week is low (<=4)",
+    "action": "Incorporate morning jogging or brisk walking 5 days weekly",
+    "state": "Daily calorie expenditure rises by 250-350, energy levels peak",
+    "raw_response": "rule-based generation"
+  },
+  "132": {
+    "condition_index": 132,
+    "condition": "your overall health score is high (>76) AND your calorie burn is low (<=0) AND your daily steps is high (>0) AND your nutrition score is high (>97)",
+    "action": "Try circuit training combining cardio and strength for 35 minutes",
+    "state": "Calorie expenditure rises 280-350, muscle tone improves",
+    "raw_response": "rule-based generation"
+  },
+  "158": {
+    "condition_index": 158,
+    "condition": "your overall health score is high (>76) AND your activity score is high (>69) AND your sleep quality is high (>83) AND your overall health score is low (<=92) AND your sedentary time is low (<=1)",
+    "action": "Share knowledge: mentor others, join health communities, teach fitness classes",
+    "state": "Health stays excellent, social connections grow, purpose and fulfillment increase",
+    "raw_response": "rule-based generation"
+  },
+  "174": {
+    "condition_index": 174,
+    "condition": "your active minutes is high (>0) AND your overall health score is high (>76) AND your calorie burn is low (<=0) AND your sleep quality is low (<=99) AND the day of week is low (<=2)",
+    "action": "Add varied cardio: swimming, cycling, dancing 3-4x weekly for 25-30 minutes",
+    "state": "Calorie burn increases 200-300 daily, cardiovascular endurance improves",
+    "raw_response": "rule-based generation"
+  },
+  "200": {
+    "condition_index": 200,
+    "condition": "your activity score is high (>69) AND your sleep quality is high (>88) AND your overall health score is high (>78) AND your sedentary time is low (<=1) AND the day of week is high (>2)",
+    "action": "Challenge yourself: set new fitness goals, learn new skills, join competitions",
+    "state": "Health score maintains high level, motivation stays fresh, continuous improvement",
+    "raw_response": "rule-based generation"
+  },
+  "210": {
+    "condition_index": 210,
+    "condition": "your calorie burn is low (<=0) AND your daily steps is high (>0) AND your overall health score is high (>78) AND your calorie burn is high (>0)",
+    "action": "Try active hobbies: rock climbing, martial arts, team sports twice weekly",
+    "state": "Calorie burn increases 300+, social fitness engagement grows",
+    "raw_response": "rule-based generation"
+  },
+  "234": {
+    "condition_index": 234,
+    "condition": "your overall health score is high (>69) AND your sleep quality is high (>88) AND your activity score is high (>62) AND your daily steps is low (<=0) AND your active minutes is high (>0)",
+    "action": "Share knowledge: mentor others, join health communities, teach fitness classes",
+    "state": "Health stays excellent, social connections grow, purpose and fulfillment increase",
+    "raw_response": "rule-based generation"
+  },
+  "250": {
+    "condition_index": 250,
+    "condition": "your daily steps is high (>0) AND your sleep quality is low (<=94) AND your sleep quality is high (>66) AND your activity score is high (>83) AND your calorie burn is low (<=0)",
+    "action": "Establish consistent 10:30 PM bedtime, reduce screen time 1 hour before sleep",
+    "state": "Sleep quality improves by 18-22%, recovery optimizes",
+    "raw_response": "rule-based generation"
+  },
+  "275": {
+    "condition_index": 275,
+    "condition": "your overall health score is high (>76) AND your daily steps is high (>0) AND your sedentary time is high (>0) AND your daily steps is low (<=0) AND your calorie burn is low (<=0)",
+    "action": "Park farther from destinations, use stairs, walk during phone calls",
+    "state": "Daily steps increase by 2500+, sitting time decreases by 90 minutes",
+    "raw_response": "rule-based generation"
+  },
+  "294": {
+    "condition_index": 294,
+    "condition": "your sleep quality is high (>88) AND your daily steps is high (>0) AND your nutrition score is high (>56) AND your activity score is high (>70) AND your nutrition score is high (>73)",
+    "action": "Focus on consistency: schedule workouts, meal prep, sleep routine for 4 weeks",
+    "state": "Habits solidify, results compound, lifestyle transformation begins",
+    "raw_response": "rule-based generation"
+  },
+  "307": {
+    "condition_index": 307,
+    "condition": "your active minutes is high (>0) AND your sedentary time is high (>0) AND your calorie burn is low (<=0)",
+    "action": "Holistic wellness: combine physical activity, mindful eating, stress reduction",
+    "state": "Multiple health dimensions improve 10-18%, wellbeing enhances comprehensively",
+    "raw_response": "rule-based generation"
+  },
+  "329": {
+    "condition_index": 329,
+    "condition": "your daily steps is high (>0) AND your overall health score is high (>71) AND your overall health score is high (>76) AND your calorie burn is low (<=0) AND your active minutes is high (>0)",
+    "action": "Add varied cardio: swimming, cycling, dancing 3-4x weekly for 25-30 minutes",
+    "state": "Calorie burn increases 200-300 daily, cardiovascular endurance improves",
+    "raw_response": "rule-based generation"
+  },
+  "347": {
+    "condition_index": 347,
+    "condition": "your sleep quality is high (>88) AND your overall health score is high (>69) AND your overall health score is high (>79) AND your daily steps is high (>0) AND your active minutes is low (<=0)",
+    "action": "Challenge yourself: set new fitness goals, learn new skills, join competitions",
+    "state": "Health score maintains high level, motivation stays fresh, continuous improvement",
+    "raw_response": "rule-based generation"
+  },
+  "362": {
+    "condition_index": 362,
+    "condition": "your activity score is high (>70) AND your calorie burn is low (<=0) AND your overall health score is high (>80) AND your sleep quality is high (>90) AND your active minutes is low (<=0)",
+    "action": "Try active hobbies: rock climbing, martial arts, team sports twice weekly",
+    "state": "Calorie burn increases 300+, social fitness engagement grows",
+    "raw_response": "rule-based generation"
+  },
+  "382": {
+    "condition_index": 382,
+    "condition": "your activity score is high (>59) AND your calorie burn is low (<=1) AND your overall health score is high (>78) AND your sedentary time is high (>0) AND your sleep quality is low (<=99)",
+    "action": "Increase daily movement: bike commuting, active errands, recreational sports",
+    "state": "Calorie expenditure climbs 280-320, lifestyle activity integrates",
+    "raw_response": "rule-based generation"
+  }
+}
